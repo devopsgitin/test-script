@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage("Check Value is more than 10 or not") {
       steps {
-        sh "bash test.sh 5"
+        sh "bash test.sh 100"
       }
     }
   }
